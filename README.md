@@ -1,6 +1,6 @@
 # atur-in
 
-Made by Spirit @Farrid_jr
+Made by Spirit & 💚 @Farrid_jr
 
 Build frontend with Vue.JS
 Build backend with Laravel
