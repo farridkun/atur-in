@@ -38028,7 +38028,7 @@ var render = function() {
                 attrs: {
                   id: "email",
                   type: "email",
-                  placeholder: "user@example.com",
+                  placeholder: "input your email here",
                   required: ""
                 },
                 domProps: { value: _vm.email },
@@ -38055,6 +38055,7 @@ var render = function() {
                   {
                     name: "model",
                     rawName: "v-model",
+                    placeholder: "input your password here",
                     value: _vm.password,
                     expression: "password"
                   }
