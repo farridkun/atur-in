@@ -1,0 +1,41 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+// Variables
+@import 'variables';
+
+// Bulma
+// change variables before import
+@import './node_modules/bulma/bulma.sass';
+
+// FontAwesome
+@import './node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/fa-regular.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/fa-brands.scss';
+@import './node_modules/@fortawesome/fontawesome-free/scss/fa-solid.scss';
+
+html {
+  background-color: #121212;
+}
+
+.main-wrapper {
+  padding: 10px;
+}
+
+.label {
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #363636;
+}
+
+.message.is-danger {
+  background-color: #242424;
+}
+
+.card {
+  background-color: #232323;
+  border-radius: 5px;
+}
