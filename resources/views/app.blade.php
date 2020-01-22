@@ -7,7 +7,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="api-base-url" content="{{ config('app.url') }}">
 
-        <title>atur-In</title>
+        <title>{{ config('app.name') }}</title>
 
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     </head>
