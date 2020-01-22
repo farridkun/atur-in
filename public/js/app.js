@@ -37994,7 +37994,7 @@ var render = function() {
                   { "is-danger": _vm.$root.error && _vm.$root.errors.name },
                   "input"
                 ],
-                attrs: { id: "name", type: "text", required: "" },
+                attrs: { id: "name", type: "text",placeholder: "your username here", required: "" },
                 domProps: { value: _vm.name },
                 on: {
                   input: function($event) {
@@ -38249,7 +38249,7 @@ var render = function() {
             attrs: {
               id: "email",
               type: "email",
-              placeholder: "user@example.com",
+              placeholder: "your@email.here",
               required: ""
             },
             domProps: { value: _vm.email },
@@ -38279,7 +38279,7 @@ var render = function() {
               }
             ],
             staticClass: "input",
-            attrs: { id: "password", type: "password", required: "" },
+            attrs: { id: "password", type: "password",placeholder: "your password here", required: "" },
             domProps: { value: _vm.password },
             on: {
               input: function($event) {
