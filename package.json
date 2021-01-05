@@ -16,7 +16,7 @@
         "@fortawesome/fontawesome-free": "^5.1.0",
         "@vue/test-utils": "^1.0.0-beta.20",
         "@websanova/vue-auth": "^2.21.6-beta",
-        "axios": "^0.18",
+        "axios": "^0.21",
         "babel-jest": "^23.2.0",
         "bulma": "^0.7.1",
         "cross-env": "^5.2.0",
